@@ -1,18 +1,10 @@
-<style>
-@media (max-width: 100px)
-@media (min-height: 350px)
-
-header {
-  background-color: #C51020;
-}
-
 body {
-  background-color: #C51020;
-  background: url("../images/open-book.jpg");
+  background-image: url("https://cdn.glitch.global/8573dc2c-7f9a-4529-bedc-39c962d335bc/open-book.jpg?1717536767204");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
   width: 100%;
   height: 100%;
-  object-fit: fill;
 }
 
 #shape {
@@ -28,7 +20,7 @@ body {
   padding: 50px;
   margin: 10px;
   height: 50px;
-  weight: 600;
+  font-weight: 600;
   width: 20%;
   border: 5px solid #cccccc;
   border-radius: 5px;
@@ -73,7 +65,7 @@ form {
   line-height: 25px;
 }
 
-#name-label, email-label, number-label {
+#name-label, #email-label, #number-label {
   margin: 20px;
 }
 
@@ -103,14 +95,13 @@ button:hover {
   100% {
   background-color: #20C510;
 }
-  }
+}
 
 #footer {
   background-color: #20C510;
-  color: #000000;
+  color: #ffffff;
   opacity: 90%;
   text-align: center;
+  padding: 25px;
+  font-weight: bold;
 }
-
-</style>
-
